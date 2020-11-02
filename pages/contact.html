@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="/">
+            <img class="header-logo" src="/images/logo.png" alt="main logo" width="142px" height="64px">
+        </a>
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li class="header-nav-link"><a href="#">Catalog</a></li>
+                <li class="header-nav-link"><a href="#">Servises</a></li>
+                <li class="header-nav-link"><a href="#">Blog</a></li>
+                <li class="header-nav-link"><a href="#">About us</a></li>
+            </ul>
+        </nav>
+        <a class="header-tel" href="tel:7194319698">719-431-9698</a>
+        <a class="button" href="#">Contact Us</a>
+    </header>
+    <main>
+        <section>
+            <h1>Contact Us</h1>
+            <form accept="" method="post">
+                <label for="name-input">Name</label>
+                <input id="name-input" type="text" placeholder="Ivan Ivanov">
+
+                <label for="phone-input">Phone</label>
+                <input id="phone-input" type="text" placeholder="">
+
+                <label for="email-input">E-mail</label>
+                <input id="email-input" type="email" placeholder="">
+
+                <fieldset>
+                    <legend>Payment Methods</legend>
+                    <ul>
+                        <li>
+                            <label for="check-cash">Cash</label>
+                            <input id="check-cash" type="checkbox">
+                        </li>
+                        <li>
+                            <label for="check-cash">Сredit Сard</label>
+                            <input id="check-credit" type="checkbox">
+                        </li>
+                        <li>
+                            <label for="check-cash">Receipt</label>
+                            <input id="check-receipt" type="checkbox">
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Do you need a report on the services provided?</legend>
+                    <ul>
+                        <li>
+                            <label for="check-cash">Yes</label>
+                            <input id="radio-yes" type="radio" name="report" value="yes">
+                        </li>
+                        <li>
+                            <label for="check-cash">No</label>
+                            <input id="radio-no" type="radio" name="report" value="no">
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <label for="textarea">Message</label>
+                <textarea id="textarea" rows="5" cols="80"></textarea>
+                <button type="submit">Submit</button>
+
+
+            </form>
+            <section class="map">
+                <img src="/images/map.jpg" width="1400" height="426" alt="see us on the map">
+                <h2 class="map-title">Contacts</h2>
+                <p class="map-company-name">Chem-Dry</p>
+                <p class="map-address">9420 Cedar CT, Thornton, CO 80229</p>
+                <a class="map-tel" href="tel:7206059399">(720) 605-9399</a>
+                <a href="#" class="map-button button button_purple">Learn More</a>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <h2 class="footer-title">Subscribe to our social networks</h2>
+        <ul>
+            <li><a href="#"><img src="social-1.png" alt="Link to social-1"></a></li>
+            <li><a href="#"><img src="social-2.png" alt="Link to social-2"></a></li>
+            <li><a href="#"><img src="social-3.png" alt="Link to social-3"></a></li>
+            <li><a href="#"><img src="social-4.png" alt="Link to social-4"></a></li>
+            <li><a href="#"><img src="social-5.png" alt="Link to social-5"></a></li>
+            <li><a href="#"><img src="social-6.png" alt="Link to social-6"></a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
