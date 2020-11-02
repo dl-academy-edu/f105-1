@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header-nav-list {
+    list-style: none;
+}
+
+
+.header-nav-list .link {
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #333333;
+    text-decoration: none;
+}
+
+.header-tel {
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 20px;
+    color: #95459A;
+    text-decoration: none;
+}
+
+.button {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #008752;
+    text-decoration: none;
+    border: 0;
+}
+
+.button-main {
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #95459A;
+}
+
+.button-map {
+    background: #95459A;
+}
+
+.poster-title {
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 90px;
+    color: #00559D;
+}
+
+.services-title {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #00559D;
+}
+
+.services-list {
+    list-style: none;
+}
+
+.service-card-title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2C3036;
+}
+
+.service-card-text {
+    font-size: 16px;
+    line-height: 21px;
+    color: #2C3036;
+}
+
+.about-us-title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #005DAB;
+}
+
+.about-us-text {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.partners-list {
+    list-style: none;
+}
+
+.map {
+    background: #008752;
+}
+
+.map-title {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.map-addres {
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.map-tel {
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #00559D;
+}
+
+.footer-title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.footer-menu {
+    list-style: none;
+}
