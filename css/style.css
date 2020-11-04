@@ -11,27 +11,19 @@ img {
     max-width: 100%;
 }
 
-.header-nav-list {
-    list-style: none;
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-
-.header-nav-list .link {
-    font-size: 17px;
-    line-height: 20px;
-    font-weight: bold;
-    color: #333333;
-    text-decoration: none;
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 110px;
 }
 
-.header-tel {
-    font-weight: 800;
-    font-size: 17px;
-    line-height: 20px;
-    color: #95459A;
-    text-decoration: none;
-}
-
+/* КНОПКИ */
 .button {
     font-weight: bold;
     font-size: 15px;
@@ -43,7 +35,64 @@ img {
     border: 0;
 }
 
-.button-main {
+.button-map {
+    background: #95459A;
+}
+
+
+/* СТИЛИ ХЕДЕРА */
+.header {
+   display: flex;
+   align-items: center;
+}
+
+.header-nav {
+    margin-right: auto;
+}
+
+.header-nav-list {
+    list-style: none;
+}
+
+.header-nav-list .link {
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #333333;
+    text-decoration: none;
+}
+
+.header-tel {
+    margin-right: 24px;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 20px;
+    color: #95459A;
+    text-decoration: none;
+}
+
+/* POSTER BLOCK */
+
+.poster {
+    background: linear-gradient(180deg, #E0E7ED 16.53%, #DAE2E5 102.51%);
+}
+
+.poster-wrapper {
+    padding-top: 143px;
+    padding-bottom: 183px;
+}
+
+.poster-title {
+    margin: 0;
+    width: 800px;
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 90px;
+    color: #00559D;
+}
+
+.poster-button {
+    margin-top: 50px;
     font-size: 24px;
     line-height: 29px;
     text-align: center;
@@ -52,26 +101,23 @@ img {
     background: #95459A;
 }
 
-.button-map {
-    background: #95459A;
-}
-
-.poster-title {
-    font-weight: 900;
-    font-size: 90px;
-    line-height: 90px;
-    color: #00559D;
-}
+/* SERVICE BLOCK */
 
 .services-title {
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 650px;
     font-weight: bold;
     font-size: 42px;
     line-height: 50px;
     text-transform: uppercase;
     color: #00559D;
+    text-align: center;
 }
 
 .services-list {
+    display: flex;
+    margin-top: 50px;
     list-style: none;
 }
 
@@ -88,7 +134,20 @@ img {
     color: #2C3036;
 }
 
+/* ABOUT US BLOCK */
+
+.about-us {
+    margin-top: 110px;
+}
+
+.about-us-wrapper {
+    padding-right: 120px;
+    width: 50%;
+}
+
 .about-us-title {
+    margin: 0;
+    margin-top: 46px;
     font-weight: 900;
     font-size: 72px;
     line-height: 72px;
@@ -96,10 +155,17 @@ img {
 }
 
 .about-us-text {
+    margin: 0;
+    margin-top: 46px;
     font-size: 18px;
     line-height: 28px;
 }
 
+.about-us-button {
+    margin-top: 20px;
+}
+
+/*  */
 .partners-list {
     list-style: none;
 }
