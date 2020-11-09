@@ -11,7 +11,7 @@ img {
     max-width: 100%;
 }
 
-*, 
+*,
 *::before,
 *::after {
     box-sizing: border-box;
@@ -23,7 +23,9 @@ img {
     padding: 0 110px;
 }
 
-/* КНОПКИ */
+
+/* BUTTONS */
+
 .button {
     font-weight: bold;
     font-size: 15px;
@@ -41,9 +43,10 @@ img {
 
 
 /* СТИЛИ ХЕДЕРА */
+
 .header {
-   display: flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .header-nav {
@@ -70,6 +73,7 @@ img {
     color: #95459A;
     text-decoration: none;
 }
+
 
 /* POSTER BLOCK */
 
@@ -100,6 +104,7 @@ img {
     color: #FFFFFF;
     background: #95459A;
 }
+
 
 /* SERVICE BLOCK */
 
@@ -134,6 +139,7 @@ img {
     color: #2C3036;
 }
 
+
 /* ABOUT US BLOCK */
 
 .about-us {
@@ -165,7 +171,9 @@ img {
     margin-top: 20px;
 }
 
+
 /*  */
+
 .partners-list {
     list-style: none;
 }
