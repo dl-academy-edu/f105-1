@@ -5,28 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 
 <body>
-    <header class="header">
+    <header class="header container">
         <a href="/">
             <img class="header-logo" src="/images/logo.png" alt="main logo" width="142px" height="64px">
         </a>
         <nav class="header-nav">
             <ul class="header-nav-list">
-                <li class="header-nav-link"><a href="#">Catalog</a></li>
-                <li class="header-nav-link"><a href="#">Servises</a></li>
-                <li class="header-nav-link"><a href="#">Blog</a></li>
-                <li class="header-nav-link"><a href="#">About us</a></li>
+                <li class="header-nav-link"><a href="#" class="link">Catalog</a></li>
+                <li class="header-nav-link"><a href="#" class="link">Servises</a></li>
+                <li class="header-nav-link"><a href="#" class="link">Blog</a></li>
+                <li class="header-nav-link"><a href="#" class="link">About us</a></li>
             </ul>
         </nav>
         <a class="header-tel" href="tel:7194319698">719-431-9698</a>
-        <a class="button" href="#">Contact Us</a>
+        <a class="button" href="/pages/contact.html">Contact us</a>
     </header>
     <main>
-        <section>
-            <h1>Contact Us</h1>
-            <form accept="" method="post">
+        <section class="container">
+            <h1 class="contact-title">Contact Us</h1>
+            <form accept="" method="post" class="contact-form">
                 <label for="name-input">Name</label>
                 <input id="name-input" type="text" placeholder="Ivan Ivanov">
 
@@ -75,23 +77,39 @@
             </form>
             <section class="map">
                 <img src="/images/map.jpg" width="1400" height="426" alt="see us on the map">
-                <h2 class="map-title">Contacts</h2>
-                <p class="map-company-name">Chem-Dry</p>
-                <p class="map-address">9420 Cedar CT, Thornton, CO 80229</p>
-                <a class="map-tel" href="tel:7206059399">(720) 605-9399</a>
-                <a href="#" class="map-button button button_purple">Learn More</a>
+                <div class="container">
+                    <div class="map-wrapper">
+                        <h2 class="map-title">Contacts</h2>
+                        <p class="map-company-name">Chem-Dry</p>
+                        <p class="map-address">9420 Cedar CT, Thornton, CO 80229</p>
+                        <a class="map-tel" href="tel:7206059399">(720) 605-9399</a>
+                        <a href="#" class="button-map button">Learn More</a>
+                    </div>
+                </div>
             </section>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer container">
         <h2 class="footer-title">Subscribe to our social networks</h2>
-        <ul>
-            <li><a href="#"><img src="social-1.png" alt="Link to social-1"></a></li>
-            <li><a href="#"><img src="social-2.png" alt="Link to social-2"></a></li>
-            <li><a href="#"><img src="social-3.png" alt="Link to social-3"></a></li>
-            <li><a href="#"><img src="social-4.png" alt="Link to social-4"></a></li>
-            <li><a href="#"><img src="social-5.png" alt="Link to social-5"></a></li>
-            <li><a href="#"><img src="social-6.png" alt="Link to social-6"></a></li>
+        <ul class="footer-menu">
+            <li>
+                <a href="#"><img src="social-1.png" alt="Link to social-1"></a>
+            </li>
+            <li>
+                <a href="#"><img src="social-2.png" alt="Link to social-2"></a>
+            </li>
+            <li>
+                <a href="#"><img src="social-3.png" alt="Link to social-3"></a>
+            </li>
+            <li>
+                <a href="#"><img src="social-4.png" alt="Link to social-4"></a>
+            </li>
+            <li>
+                <a href="#"><img src="social-5.png" alt="Link to social-5"></a>
+            </li>
+            <li>
+                <a href="#"><img src="social-6.png" alt="Link to social-6"></a>
+            </li>
         </ul>
     </footer>
 </body>

@@ -23,6 +23,19 @@ img {
     padding: 0 110px;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 
 /* BUTTONS */
 
@@ -172,21 +185,46 @@ img {
 }
 
 
-/*  */
+/* PARTNERS */
+
+.partners {
+    margin-top: 100px;
+}
 
 .partners-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
+
+/* MAP BLOCK */
+
 .map {
+    margin-top: 68px;
+}
+
+.map-wrapper {
+    padding-top: 50px;
+    padding-right: 44px;
+    padding-left: 44px;
+    padding-bottom: 26px;
     background: #008752;
+    width: 380px;
 }
 
 .map-title {
+    margin: 0;
     font-weight: 900;
     font-size: 30px;
     line-height: 36px;
     color: #FFFFFF;
+}
+
+.map-company-name {
+    margin: 0;
+    margin-top: 17px;
 }
 
 .map-addres {
@@ -202,11 +240,15 @@ img {
     text-decoration: underline;
 }
 
+/* FOOTER BLOCK */
+
 .footer {
+    display: flex;
     background-color: #00559D;
 }
 
 .footer-title {
+    margin: 0;
     font-weight: 900;
     font-size: 40px;
     line-height: 52px;
@@ -216,4 +258,25 @@ img {
 
 .footer-menu {
     list-style: none;
+}
+
+.contact-title {
+    margin: 0;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #00559D;
+}
+
+
+.contact-form {
+    width: 780px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background: #EEEEEE;
 }
