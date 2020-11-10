@@ -11,9 +11,7 @@ img {
     max-width: 100%;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
     box-sizing: border-box;
 }
 
@@ -36,7 +34,6 @@ img {
     overflow: hidden;
 }
 
-
 /* BUTTONS */
 
 .button {
@@ -53,7 +50,6 @@ img {
 .button-map {
     background: #95459A;
 }
-
 
 /* СТИЛИ ХЕДЕРА */
 
@@ -87,7 +83,6 @@ img {
     text-decoration: none;
 }
 
-
 /* POSTER BLOCK */
 
 .poster {
@@ -117,7 +112,6 @@ img {
     color: #FFFFFF;
     background: #95459A;
 }
-
 
 /* SERVICE BLOCK */
 
@@ -152,7 +146,6 @@ img {
     color: #2C3036;
 }
 
-
 /* ABOUT US BLOCK */
 
 .about-us {
@@ -184,7 +177,6 @@ img {
     margin-top: 20px;
 }
 
-
 /* PARTNERS */
 
 .partners {
@@ -197,7 +189,6 @@ img {
     padding: 0;
     list-style: none;
 }
-
 
 /* MAP BLOCK */
 
@@ -272,7 +263,6 @@ img {
     text-align: center;
     color: #00559D;
 }
-
 
 .contact-form {
     width: 780px;
