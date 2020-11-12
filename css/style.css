@@ -37,6 +37,11 @@ img {
 /* BUTTONS */
 
 .button {
+    display: block;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 20px;
+    padding-left: 20px;
     font-weight: bold;
     font-size: 15px;
     line-height: 18px;
@@ -44,6 +49,7 @@ img {
     color: #FFFFFF;
     background: #008752;
     text-decoration: none;
+    text-align: center;
     border: 0;
 }
 
@@ -56,6 +62,8 @@ img {
 .header {
     display: flex;
     align-items: center;
+    padding-top: 35px;
+    padding-bottom: 33px;
 }
 
 .header-nav {
@@ -63,6 +71,7 @@ img {
 }
 
 .header-nav-list {
+    display: flex;
     list-style: none;
 }
 
@@ -74,24 +83,43 @@ img {
     text-decoration: none;
 }
 
+.header-nav-link {
+    margin-right: 15px;
+}
+
+.header-nav-link:last-child {
+    margin-right: 0;
+}
+
+
 .header-tel {
     margin-right: 24px;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 17px;
     line-height: 20px;
     color: #95459A;
     text-decoration: none;
 }
 
+.header-button-wrapper {
+    width: 180px;
+}
+
 /* POSTER BLOCK */
 
 .poster {
-    background: linear-gradient(180deg, #E0E7ED 16.53%, #DAE2E5 102.51%);
+    background-color: #DAE2E5;
+    background-image:
+                url('/images/poster-image.png'),
+                linear-gradient(180deg, #E0E7ED 16.53%, #DAE2E5 102.51%);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
 }
 
 .poster-wrapper {
     padding-top: 143px;
-    padding-bottom: 183px;
+    padding-bottom: 286px;
 }
 
 .poster-title {
@@ -103,8 +131,15 @@ img {
     color: #00559D;
 }
 
-.poster-button {
+.poster-button-wrapper {
     margin-top: 50px;
+    width: 360px;
+}
+
+.poster-button {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
     font-size: 24px;
     line-height: 29px;
     text-align: center;
@@ -129,8 +164,21 @@ img {
 
 .services-list {
     display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -20px;
     margin-top: 50px;
     list-style: none;
+}
+
+.service-card {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 280px;
 }
 
 .service-card-title {
@@ -149,12 +197,37 @@ img {
 /* ABOUT US BLOCK */
 
 .about-us {
-    margin-top: 110px;
+    margin-top: 85px;
 }
 
 .about-us-wrapper {
+    position: relative;
     padding-right: 120px;
     width: 50%;
+}
+
+.about-us-wrapper::before {
+    content: '';
+    position: absolute;
+    right: -609px;
+    top: 35px;
+    width: 600px;
+    height: 370px;
+    background-image: url(/images/about-us-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-us-wrapper::after {
+    content: '';
+    position: absolute;
+    right: -700px;
+    top: 118px;
+    width: 590px;
+    height: 430px;
+    background-color: #008752;
+    background-repeat: no-repeat;
+    z-index: -1;
 }
 
 .about-us-title {
@@ -173,14 +246,15 @@ img {
     line-height: 28px;
 }
 
-.about-us-button {
+.about-us-button-wrapper {
     margin-top: 20px;
+    width: 180px;
 }
 
 /* PARTNERS */
 
 .partners {
-    margin-top: 100px;
+    margin-top: 140px;
 }
 
 .partners-list {
@@ -190,13 +264,22 @@ img {
     list-style: none;
 }
 
+.partners-item {
+    margin-right: 45px;
+}
+
 /* MAP BLOCK */
 
 .map {
+    position: relative;
     margin-top: 68px;
+    text-align: center;
 }
 
 .map-wrapper {
+    position: absolute;
+    top: 40px;
+    left: calc(50% - 590px);
     padding-top: 50px;
     padding-right: 44px;
     padding-left: 44px;
@@ -242,6 +325,7 @@ img {
 .footer-wrapper {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .footer-title {
@@ -257,7 +341,6 @@ img {
     display: flex;
     margin: 0;
     padding: 0;
-    margin-left: auto;
     list-style: none;
 }
 
