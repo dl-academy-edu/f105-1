@@ -91,7 +91,6 @@ img {
     margin-right: 0;
 }
 
-
 .header-tel {
     margin-right: 24px;
     font-weight: 900;
@@ -109,9 +108,7 @@ img {
 
 .poster {
     background-color: #DAE2E5;
-    background-image:
-                url('/images/poster-image.png'),
-                linear-gradient(180deg, #E0E7ED 16.53%, #DAE2E5 102.51%);
+    background-image: url('/images/poster-image.png'), linear-gradient(180deg, #E0E7ED 16.53%, #DAE2E5 102.51%);
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
@@ -182,6 +179,8 @@ img {
 }
 
 .service-card-title {
+    margin: 0;
+    margin-top: 20px;
     font-weight: bold;
     font-size: 30px;
     line-height: 36px;
@@ -189,9 +188,16 @@ img {
 }
 
 .service-card-text {
+    margin: 0;
+    margin-top: 20px;
     font-size: 16px;
     line-height: 21px;
     color: #2C3036;
+}
+
+.services-button-wrapper {
+    margin-top: 20px;
+    width: 180px;
 }
 
 /* ABOUT US BLOCK */
