@@ -33,7 +33,7 @@
 
 .label-wrapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 .label-wrapper label {
@@ -47,6 +47,15 @@
     padding: 12px 20px 13px;
     background: #EEEEEE;
     border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.label-wrapper input:focus {
+    border: 2px solid rgba(255, 182, 18, 0.5);
+    outline: 0;
+}
+
+.label-wrapper input:focus+label {
+    color: #FFB612;
 }
 
 .email-wrapper {
@@ -103,6 +112,11 @@
     opacity: 0;
 }
 
+.input:hover + .checkbox::before, 
+.input:focus + .checkbox::before {
+    border: 2px solid rgba(255, 182, 18, 0.5);
+}
+
 .input:checked+.checkbox::after {
     opacity: 1;
 }
@@ -146,6 +160,11 @@
     border-radius: 50%;
 }
 
+.radio:hover + .radio-button::before, 
+.radio:focus + .radio-button::before {
+    border: 2px solid rgba(255, 182, 18, 0.5);
+}
+
 .radio:checked+.radio-button::after {
     opacity: 1;
 }
@@ -166,6 +185,11 @@
     width: 100%;
     background: #EEEEEE;
     border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.textarea-wrapper textarea:focus {
+    border: 2px solid rgba(255, 182, 18, 0.5);
+    outline: 0;
 }
 
 .form-button-wrapper {

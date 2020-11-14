@@ -52,10 +52,27 @@ img {
     text-decoration: none;
     text-align: center;
     border: 0;
+    cursor: pointer;
 }
 
-.button-map {
+.button:hover {
+    background: #26CD8B;
+}
+
+.button:active {
+    background: #005232;
+}
+
+.button-secondary {
     background: #95459A;
+}
+
+.button-secondary:hover {
+    background: #D665DD;
+}
+
+.button-secondary:active {
+    background: #722A77;
 }
 
 /* СТИЛИ ХЕДЕРА */
@@ -65,6 +82,14 @@ img {
     align-items: center;
     padding-top: 35px;
     padding-bottom: 33px;
+}
+
+.header-logo:hover {
+    opacity: 0.7;
+}
+
+.header-logo:active {
+    opacity: 0.5;
 }
 
 .header-nav {
@@ -84,6 +109,15 @@ img {
     text-decoration: none;
 }
 
+.header-nav-list .link:hover {
+    color: #008752;
+}
+
+.header-nav-list .link:active {
+    color: #333333;
+    opacity: 0.5;
+}
+
 .header-nav-link {
     margin-right: 15px;
 }
@@ -99,6 +133,14 @@ img {
     line-height: 20px;
     color: #95459A;
     text-decoration: none;
+}
+
+.header-tel:hover {
+    opacity: 0.7;
+}
+
+.header-tel:active {
+    opacity: 0.5;
 }
 
 .header-button-wrapper {
@@ -143,8 +185,8 @@ img {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    background: #95459A;
 }
+
 
 /* SERVICE BLOCK */
 
@@ -266,14 +308,24 @@ img {
 
 .partners-list {
     display: flex;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.partners-item {
-    margin-right: 45px;
+.partners-item a {
+    opacity: 0.5;
 }
+
+.partners-item a:hover {
+    opacity: 1;
+}
+
+.partners-item a:active {
+    opacity: 0.2;
+}
+
 
 /* MAP BLOCK */
 
@@ -317,6 +369,14 @@ img {
     line-height: 18px;
     color: #FFFFFF;
     text-decoration: underline;
+}
+
+.map-tel:hover {
+    opacity: 0.7;
+}
+
+.map-tel:active {
+    opacity: 0.5;
 }
 
 .map-button-wrapper {
