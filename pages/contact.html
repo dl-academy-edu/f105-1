@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="stylesheet" type="text/css" href="/css/contact.css">
 </head>
@@ -24,7 +24,9 @@
             </ul>
         </nav>
         <a class="header-tel" href="tel:7194319698">719-431-9698</a>
-        <a class="button" href="/pages/contact.html">Contact us</a>
+        <div class="header-button-wrapper">
+            <a class="button" href="/pages/contact.html">Contact us</a>
+        </div>
     </header>
     <main>
         <section class="container">
@@ -89,22 +91,20 @@
                 <div class="form-button-wrapper">
                     <button type="submit" class="button">Submit</button>
                 </div>
-
-
-
             </form>
-            <section class="map">
-                <img src="/images/map.jpg" width="1400" height="426" alt="see us on the map">
-                <div class="container">
-                    <div class="map-wrapper">
-                        <h2 class="map-title">Contacts</h2>
-                        <p class="map-company-name">Chem-Dry</p>
-                        <p class="map-address">9420 Cedar CT, Thornton, CO 80229</p>
-                        <a class="map-tel" href="tel:7206059399">(720) 605-9399</a>
+        </section>
+        <section class="map">
+            <div class="container">
+                <div class="map-wrapper">
+                    <h2 class="visually-hidden">Contacts</h2>
+                    <p class="map-company-name">Chem-Dry</p>
+                    <p class="map-address">9420 Cedar CT, Thornton, CO 80229</p>
+                    <a class="map-tel" href="tel:7206059399">(720) 605-9399</a>
+                    <div class="map-button-wrapper">
                         <a href="#" class="button-map button">Learn More</a>
                     </div>
                 </div>
-            </section>
+            </div>
         </section>
     </main>
     <footer class="footer">

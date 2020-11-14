@@ -277,15 +277,15 @@ img {
 /* MAP BLOCK */
 
 .map {
-    position: relative;
     margin-top: 68px;
-    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 133px;
+    background-image: url('/images/map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .map-wrapper {
-    position: absolute;
-    top: 40px;
-    left: calc(50% - 590px);
     padding-top: 50px;
     padding-right: 44px;
     padding-left: 44px;
@@ -294,7 +294,7 @@ img {
     width: 380px;
 }
 
-.map-title {
+.map-company-name {
     margin: 0;
     font-weight: 900;
     font-size: 30px;
@@ -302,12 +302,10 @@ img {
     color: #FFFFFF;
 }
 
-.map-company-name {
+.map-address {
     margin: 0;
     margin-top: 17px;
-}
-
-.map-addres {
+    margin-bottom: 23px;
     font-size: 15px;
     line-height: 18px;
     color: #FFFFFF;
@@ -318,6 +316,11 @@ img {
     line-height: 18px;
     color: #FFFFFF;
     text-decoration: underline;
+}
+
+.map-button-wrapper {
+    margin-top: 23px;
+    width: 180px;
 }
 
 /* FOOTER BLOCK */
